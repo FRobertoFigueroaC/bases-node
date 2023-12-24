@@ -1,4 +1,4 @@
-const { getAge, getUUID } = require('./plugins');
+// const { getAge, getUUID } = require('./plugins');
 
 // const { emailTemplate } = require('./js-foundation/01-template');
 // require('./js-foundation/02-destructuring');
@@ -7,7 +7,7 @@ const { getAge, getUUID } = require('./plugins');
 // const { buildMakePerson } = require('./js-foundation/05-factory')
 // const getPokemonById = require('./js-foundation/06-promises');
 
-const { buildLogger } = require('./plugins')
+import  { buildLogger }  from './plugins'
 
 
 // getPokemonById(4)
