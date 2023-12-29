@@ -32,10 +32,5 @@ export const buildMakePerson = ({ getUUID, getAge }: BuildMakerPersonOptions) =>
 
 // const john = buildPerson( obj );
 
-
 // console.log(john);
 
-
-module.exports = {
-  buildMakePerson,
-}
