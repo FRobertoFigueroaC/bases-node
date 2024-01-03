@@ -3,7 +3,7 @@ import { buildMakePerson } from "../../src/js-foundation/05-factory";
 describe('test for 05-factory', () => {
 
     const getUUID = () => '1234';
-    const getAge = () => '31';
+    const getAge = () => 31;
     test('should return a function', () => {
         const result = buildMakePerson({getUUID, getAge});
 
@@ -20,6 +20,6 @@ describe('test for 05-factory', () => {
         expect(person.id).toBe('1234');
         expect(person.name).toBe('John');
         expect(person.birthdate).toBe('1992-10-21');
-        expect(person.age).toBe('31');
+        expect(person.age).toBe(31);
     });
 });

@@ -5,7 +5,7 @@
 
 interface BuildMakerPersonOptions {
   getUUID: () => string,
-  getAge: (birthdate: string) => string
+  getAge: (birthdate: string) => number
 }
 
 interface PersonOptions {
